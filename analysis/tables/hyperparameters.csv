@@ -1,0 +1,24 @@
+model,modality,hyperparameter,searched_grid,best_value,selection_criterion,cv_scheme,seed
+RandomForest,metabolomics,n_estimators,fixed=1000,1000,n/a,5-fold stratified x 3 repeats,2026
+RandomForest,metabolomics,max_features,"[7, 17, 25]",7,inner-CV AUC,5-fold inner GridSearchCV,2026
+RandomForest,biochem,n_estimators,fixed=1000,1000,n/a,5-fold stratified x 3 repeats,2026
+RandomForest,biochem,max_features,"[3, 4]",3,inner-CV AUC,5-fold inner GridSearchCV,2026
+RandomForest,diet,n_estimators,fixed=1000,1000,n/a,5-fold stratified x 3 repeats,2026
+RandomForest,diet,max_features,"[3, 4]",4,inner-CV AUC,5-fold inner GridSearchCV,2026
+LogisticRegression-stack,combined,C,fixed=1.0,1.0,n/a,leave-one-fold-out within repeat,2026
+LogisticRegression-stack,combined,max_iter,fixed=2000,2000,n/a,n/a,2026
+LogisticRegression-stack,metab+biochem,C,fixed=1.0,1.0,n/a,leave-one-fold-out within repeat (testing/01_stacked_2modality.py),2026
+LogisticRegression-stack,metab+biochem,max_iter,fixed=2000,2000,n/a,n/a,2026
+DIABLO (mixOmics::block.splsda),metab+biochem,ncomp,"[1,2,3]",3,WeightedVote BER (centroids.dist),5-fold Mfold x 3 repeats,2026
+DIABLO (mixOmics::block.splsda),metab+biochem,keepX_metab,"[5,10,15,20,25] per comp","5,5,5",WeightedVote BER,5-fold Mfold x 3 repeats,2026
+DIABLO (mixOmics::block.splsda),metab+biochem,keepX_biochem,"[2,4,6,8] per comp","6,4,4",WeightedVote BER,5-fold Mfold x 3 repeats,2026
+DIABLO (mixOmics::block.splsda),metab+biochem,design,0.5 off-diagonal,fixed,literature default,n/a,2026
+rCCA (mixOmics::rcc),metab+biochem,ncomp,fixed=3,3,n/a,shrinkage estimator,2026
+rCCA (mixOmics::rcc),metab+biochem,lambda_X1,shrinkage-tuned,0.000906,Ledoit-Wolf shrinkage,n/a,2026
+rCCA (mixOmics::rcc),metab+biochem,lambda_X2,shrinkage-tuned,0.008652,Ledoit-Wolf shrinkage,n/a,2026
+Boruta,metabolomics,max_iter,fixed=100,100,n/a,RF shadow comparison,2026
+Boruta,metabolomics,n_estimators,auto,auto,n/a,RF shadow comparison,2026
+Boruta,biochem,max_iter,fixed=100,100,n/a,RF shadow comparison,2026
+Boruta,diet,max_iter,fixed=100,100,n/a,RF shadow comparison,2026
+KNNImputer,metabolomics,n_neighbors,fixed=10,10,literature default,n/a,2026
+StandardScaler,all,with_mean,True,True,n/a,n/a,n/a

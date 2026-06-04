@@ -1,0 +1,9 @@
+feature,shap_mean_abs,rank
+Bread_type__diet,0.048057277606816474,1
+Cheese_intake__diet,0.044324263931178214,2
+Processed_meat_intake__diet,0.03826869101142902,3
+Oily_fish_intake__diet,0.0358750229915072,4
+Pork_intake__diet,0.03549065020412516,5
+Non_oily_fish_intake__diet,0.032972067796342576,6
+Spread_type__diet,0.03187131667998495,7
+Lamb/mutton_intake__diet,0.029507546325197663,8

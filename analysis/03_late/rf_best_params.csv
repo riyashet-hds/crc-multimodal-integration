@@ -1,0 +1,4 @@
+modality,max_features,grid,inner_cv_auc
+metabolomics,7,"[7, 17, 25]",0.5598930635201592
+biochem,3,"[3, 4]",0.825087485341754
+diet,4,"[3, 4]",0.503941552870279

@@ -1,0 +1,8 @@
+a,b,intersection
+metabolomics,biochem,4596
+metabolomics,diet,4596
+metabolomics,proteomics,0
+biochem,diet,4596
+biochem,proteomics,0
+diet,proteomics,0
+metab_AND_biochem_AND_diet,,4596

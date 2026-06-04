@@ -1,0 +1,5 @@
+modality,file,n_rows,n_cols,n_features,missing_pct_overall,n_unique_sample_ids,n_duplicate_sample_rows
+metabolomics,Metabolomics.xlsx,4596,52,50,0.004,4596,0
+biochem,Blood Bio Chemistry.xlsx,4596,10,8,12.592,4596,0
+diet,Diet.xlsx,4596,10,8,0.835,4596,0
+proteomics,Proteomics.xlsx,518,2925,2923,14.174,509,8

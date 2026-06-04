@@ -1,0 +1,24 @@
+feature,modality,in_intermediate_top20,in_late_top20,rank_intermediate,rank_late,abs_loading_max,rf_importance,agreement_score
+Triglycerides in LDL.0.0__met,metabolomics,True,True,2.0,1,0.71887187720909,0.0265825997123344,1.5
+Cholesterol in Large HDL.0.0__met,metabolomics,True,True,3.0,5,0.666175404497701,0.0231454526143238,4.0
+Saturated Fatty Acids.0.0__met,metabolomics,True,True,9.0,4,0.330394309852632,0.0233831754286377,6.5
+Triglycerides in HDL.0.0__met,metabolomics,True,True,8.0,6,0.353603517920804,0.0227148561868129,7.0
+Triglycerides in Small HDL.0.0__met,metabolomics,True,True,7.0,10,0.481377099747075,0.0216487253093639,8.5
+Cholesteryl Esters in Medium HDL.0.0__met,metabolomics,True,True,6.0,11,0.48411888114614,0.0213859447748312,8.5
+Total Lipids in HDL.0.0__met,metabolomics,True,True,4.0,16,0.5564481136501,0.0207461431434028,10.0
+Free Cholesterol in Medium LDL.0.0__met,metabolomics,True,True,1.0,20,0.798519640610601,0.0201973489292651,10.5
+Triglycerides in Small VLDL.0.0__met,metabolomics,True,True,11.0,12,0.131542632359276,0.0213095427885509,11.5
+Clinical LDL Cholesterol.0.0__met,metabolomics,True,True,5.0,19,0.534534523960275,0.0203505407126277,12.0
+Phosphatidylcholines.0.0__met,metabolomics,True,True,12.0,14,0.109975735752682,0.0212216041346503,13.0
+Total Cholesterol.0.0__met,metabolomics,True,True,15.0,15,0.0104916024055631,0.021120291169991,15.0
+LDL Cholesterol.0.0__met,metabolomics,True,False,14.0,42,0.0687636713386813,0.0181382950471529,
+Phospholipids in LDL.0.0__met,metabolomics,True,False,13.0,40,0.0874303553874439,0.0181821064311169,
+Cholesterol in Small LDL.0.0__met,metabolomics,True,False,10.0,41,0.253508809934745,0.0181623810152753,
+Free Cholesterol in Very Small VLDL.0.0__met,metabolomics,False,True,,7,,0.0225545957086907,
+Concentration of Small VLDL Particles.0.0__met,metabolomics,False,True,,17,,0.020709766464469,
+Phospholipids in IDL.0.0__met,metabolomics,False,True,,3,,0.0239843163078013,
+Concentration of Small LDL Particles.0.0__met,metabolomics,False,True,,18,,0.0205602871339034,
+Total Lipids in Small HDL.0.0__met,metabolomics,False,True,,9,,0.0221275874513223,
+Concentration of Small HDL Particles.0.0__met,metabolomics,False,True,,8,,0.0222736226896674,
+Total Fatty Acids.0.0__met,metabolomics,False,True,,13,,0.0212484911200453,
+Cholesterol in IDL.0.0__met,metabolomics,False,True,,2,,0.0259669912559048,

@@ -1,0 +1,16 @@
+"feature","comp","loading","rank"
+"Cholesterol in Large HDL.0.0__met",1,0.666175404497701,1
+"Total Lipids in HDL.0.0__met",1,0.5564481136501,2
+"Cholesteryl Esters in Medium HDL.0.0__met",1,0.48411888114614,3
+"Phosphatidylcholines.0.0__met",1,0.109975735752682,4
+"Total Cholesterol.0.0__met",1,0.0104916024055631,5
+"Free Cholesterol in Medium LDL.0.0__met",2,-0.798519640610601,1
+"Clinical LDL Cholesterol.0.0__met",2,-0.534534523960275,2
+"Cholesterol in Small LDL.0.0__met",2,-0.253508809934745,3
+"Phospholipids in LDL.0.0__met",2,-0.0874303553874439,4
+"LDL Cholesterol.0.0__met",2,-0.0687636713386813,5
+"Triglycerides in LDL.0.0__met",3,0.71887187720909,1
+"Triglycerides in Small HDL.0.0__met",3,0.481377099747075,2
+"Triglycerides in HDL.0.0__met",3,0.353603517920804,3
+"Saturated Fatty Acids.0.0__met",3,0.330394309852632,4
+"Triglycerides in Small VLDL.0.0__met",3,0.131542632359276,5

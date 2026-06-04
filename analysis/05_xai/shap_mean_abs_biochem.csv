@@ -1,0 +1,9 @@
+feature,shap_mean_abs,rank
+Lipoprotein_A__bio,0.13089894373319588,1
+Direct_bilirubin__bio,0.0732423905625126,2
+HDL_cholesterol__bio,0.049950007977473405,3
+Albumin__bio,0.040636462176516695,4
+Apolipoprotein_A__bio,0.03831680045249942,5
+Total_protein__bio,0.028946824976264475,6
+Creatinine__bio,0.019127678563354667,7
+Alanine_aminotransferase__bio,0.017216014223501594,8

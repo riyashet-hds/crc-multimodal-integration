@@ -1,0 +1,4 @@
+"block","comp","auc_mean","pvalue"
+"comp1","Control vs Colon Cancer",0.54886,0.0001062365339923
+"comp2","Control vs Colon Cancer",0.574296666666667,1.79666480033333e-11
+"comp3","Control vs Colon Cancer",0.582216666666667,1.13322271e-11

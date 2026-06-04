@@ -1,0 +1,51 @@
+feature,shap_mean_abs,rank
+Triglycerides in LDL.0.0__met,0.014997993797941839,1
+Cholesterol in IDL.0.0__met,0.011589788743100335,2
+Phospholipids in IDL.0.0__met,0.010251809289835158,3
+Clinical LDL Cholesterol.0.0__met,0.010065281445211873,4
+Saturated Fatty Acids.0.0__met,0.009341489497416701,5
+Free Cholesterol in Medium LDL.0.0__met,0.009132407596345218,6
+Triglycerides in Small HDL.0.0__met,0.008718408643342647,7
+Total Cholesterol.0.0__met,0.008332557121710745,8
+Triglycerides in Small VLDL.0.0__met,0.008256290390754189,9
+Cholesterol in Large LDL.0.0__met,0.008178692760433648,10
+Total Cholesterol Minus HDL__met,0.007995128708983156,11
+Cholesterol in Large HDL.0.0__met,0.007934904654411011,12
+Triglycerides in HDL.0.0__met,0.007737689375818729,13
+Cholesteryl Esters in Large LDL.0.0__met,0.006603064166184951,14
+Concentration of LDL Particles.0.0__met,0.006587573241357936,15
+Cholesterol in Small LDL.0.0__met,0.006362064709164255,16
+Concentration of Small VLDL Particles.0.0__met,0.006323549477734122,17
+Total Fatty Acids.0.0__met,0.006272205768717726,18
+Free Cholesterol in Very Small VLDL.0.0__met,0.006242327552706314,19
+LDL Cholesterol.0.0__met,0.006166220909150681,20
+Concentration of Small HDL Particles.0.0__met,0.006076799739544195,21
+Cholesteryl Esters in Medium HDL.0.0__met,0.006062489006597781,22
+Phospholipids in LDL.0.0__met,0.0060204282545841675,23
+Phosphatidylcholines.0.0__met,0.006007697960274523,24
+Total Lipids in Small HDL.0.0__met,0.005994434278792184,25
+Total Lipids in HDL.0.0__met,0.005925490855806471,26
+Total Lipids in Small VLDL.0.0__met,0.005871486457739726,27
+Concentration of Small LDL Particles.0.0__met,0.005807194465286439,28
+Phospholipids in Medium LDL.0.0__met,0.005699971645807358,29
+Cholesteryl Esters in Very Large VLDL.0.0__met,0.005685469019729045,30
+Apolipoprotein B.0.0__met,0.0056379700320555405,31
+Free Cholesterol in Medium VLDL.0.0__met,0.0055967625743380475,32
+Total Lipids in Small LDL.0.0__met,0.005521331176977893,33
+Phospholipids in Chylomicrons and Extremely Large VLDL.0.0__met,0.005390421821635966,34
+Total Phospholipids in Lipoprotein Particles.0.0__met,0.005383183406525385,35
+Concentration of Medium VLDL Particles.0.0__met,0.005267374704455336,36
+Concentration of Very Large VLDL Particles.0.0__met,0.005258424060321394,37
+Phospholipids in Very Large VLDL.0.0__met,0.005241842291534765,38
+Total Lipids in Lipoprotein Particles.0.0__met,0.005237896119423591,39
+VLDL Cholesterol.0.0__met,0.005232526305344777,40
+Total Lipids in LDL.0.0__met,0.005223576005706666,41
+Total Lipids in Chylomicrons and Extremely Large VLDL.0.0__met,0.005220830943766293,42
+Triglycerides in Very Large VLDL.0.0__met,0.005218493535062718,43
+Concentration of Large VLDL Particles.0.0__met,0.005146687616024701,44
+Concentration of Chylomicrons and Extremely Large VLDL Particles.0.0__met,0.005125869584825431,45
+Cholesterol in Very Large VLDL.0.0__met,0.005104845277249731,46
+Total Lipids in Medium VLDL.0.0__met,0.005045093099484774,47
+Total Lipids in Medium LDL.0.0__met,0.004985874932868974,48
+Free Cholesterol in Very Large VLDL.0.0__met,0.004743830452163401,49
+Triglycerides in VLDL.0.0__met,0.004647179301424898,50

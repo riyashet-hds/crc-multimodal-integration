@@ -1,0 +1,67 @@
+modality,feature,status,rank
+metabolomics,Total Cholesterol.0.0__met,rejected,13
+metabolomics,Concentration of LDL Particles.0.0__met,rejected,23
+metabolomics,Concentration of Chylomicrons and Extremely Large VLDL Particles.0.0__met,rejected,39
+metabolomics,Concentration of Very Large VLDL Particles.0.0__met,rejected,44
+metabolomics,Cholesterol in Very Large VLDL.0.0__met,rejected,51
+metabolomics,Concentration of Large VLDL Particles.0.0__met,rejected,49
+metabolomics,Total Lipids in Medium VLDL.0.0__met,rejected,47
+metabolomics,Concentration of Small VLDL Particles.0.0__met,rejected,30
+metabolomics,Total Lipids in LDL.0.0__met,rejected,41
+metabolomics,Total Lipids in Small VLDL.0.0__met,rejected,31
+metabolomics,Free Cholesterol in Very Small VLDL.0.0__met,rejected,15
+metabolomics,Phospholipids in IDL.0.0__met,rejected,3
+metabolomics,Cholesterol in Large LDL.0.0__met,rejected,19
+metabolomics,Total Lipids in Medium LDL.0.0__met,rejected,38
+metabolomics,Cholesterol in Small LDL.0.0__met,rejected,32
+metabolomics,Cholesterol in Large HDL.0.0__met,rejected,5
+metabolomics,Concentration of Small HDL Particles.0.0__met,rejected,7
+metabolomics,Triglycerides in Small VLDL.0.0__met,rejected,18
+metabolomics,Total Lipids in Lipoprotein Particles.0.0__met,rejected,28
+metabolomics,Triglycerides in Very Large VLDL.0.0__met,rejected,36
+metabolomics,Total Cholesterol Minus HDL__met,rejected,21
+metabolomics,Phospholipids in LDL.0.0__met,rejected,27
+metabolomics,Triglycerides in LDL.0.0__met,rejected,2
+metabolomics,Clinical LDL Cholesterol.0.0__met,rejected,16
+metabolomics,Phosphatidylcholines.0.0__met,rejected,17
+metabolomics,Phospholipids in Very Large VLDL.0.0__met,rejected,50
+metabolomics,Concentration of Medium VLDL Particles.0.0__met,rejected,43
+metabolomics,LDL Cholesterol.0.0__met,rejected,29
+metabolomics,Free Cholesterol in Very Large VLDL.0.0__met,rejected,47
+metabolomics,Total Lipids in Small HDL.0.0__met,rejected,8
+metabolomics,Triglycerides in HDL.0.0__met,rejected,6
+metabolomics,VLDL Cholesterol.0.0__met,rejected,44
+metabolomics,Cholesterol in IDL.0.0__met,rejected,3
+metabolomics,Triglycerides in Small HDL.0.0__met,rejected,10
+metabolomics,Total Fatty Acids.0.0__met,rejected,20
+metabolomics,Cholesteryl Esters in Medium HDL.0.0__met,rejected,9
+metabolomics,Concentration of Small LDL Particles.0.0__met,rejected,33
+metabolomics,Cholesteryl Esters in Very Large VLDL.0.0__met,rejected,40
+metabolomics,Cholesteryl Esters in Large LDL.0.0__met,rejected,21
+metabolomics,Apolipoprotein B.0.0__met,rejected,35
+metabolomics,Phospholipids in Medium LDL.0.0__met,rejected,26
+metabolomics,Triglycerides in VLDL.0.0__met,rejected,41
+metabolomics,Saturated Fatty Acids.0.0__met,rejected,13
+metabolomics,Total Lipids in Chylomicrons and Extremely Large VLDL.0.0__met,rejected,25
+metabolomics,Total Phospholipids in Lipoprotein Particles.0.0__met,rejected,24
+metabolomics,Free Cholesterol in Medium LDL.0.0__met,rejected,13
+metabolomics,Phospholipids in Chylomicrons and Extremely Large VLDL.0.0__met,rejected,46
+metabolomics,Total Lipids in Small LDL.0.0__met,rejected,34
+metabolomics,Free Cholesterol in Medium VLDL.0.0__met,rejected,36
+metabolomics,Total Lipids in HDL.0.0__met,rejected,11
+biochem,Direct_bilirubin__bio,confirmed,1
+biochem,Lipoprotein_A__bio,confirmed,1
+biochem,HDL_cholesterol__bio,confirmed,1
+biochem,Apolipoprotein_A__bio,confirmed,1
+biochem,Alanine_aminotransferase__bio,confirmed,2
+biochem,Total_protein__bio,confirmed,1
+biochem,Albumin__bio,confirmed,1
+biochem,Creatinine__bio,confirmed,1
+diet,Cheese_intake__diet,rejected,3
+diet,Spread_type__diet,rejected,7
+diet,Pork_intake__diet,rejected,8
+diet,Processed_meat_intake__diet,rejected,2
+diet,Lamb/mutton_intake__diet,rejected,6
+diet,Non_oily_fish_intake__diet,rejected,5
+diet,Oily_fish_intake__diet,rejected,4
+diet,Bread_type__diet,rejected,9

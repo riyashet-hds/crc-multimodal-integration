@@ -1,0 +1,12 @@
+src_modality,src,dst_modality,dst,spearman_rho,p_bh
+metabolomics,Cholesterol in IDL.0.0__met,biochem,HDL_cholesterol__bio,0.42102487164807345,3.549187788768347e-195
+metabolomics,Cholesterol in IDL.0.0__met,biochem,Apolipoprotein_A__bio,0.3473564337946827,4.5454940259145475e-129
+metabolomics,Phospholipids in IDL.0.0__met,biochem,HDL_cholesterol__bio,0.35889464234016083,2.9171892885234885e-138
+metabolomics,Cholesterol in Large HDL.0.0__met,biochem,HDL_cholesterol__bio,0.8281575627014598,0.0
+metabolomics,Cholesterol in Large HDL.0.0__met,biochem,Apolipoprotein_A__bio,0.6916236295082148,0.0
+metabolomics,Cholesterol in Large HDL.0.0__met,biochem,Creatinine__bio,-0.3361615930116819,1.6894767529558198e-120
+metabolomics,Cholesterol in Large HDL.0.0__met,biochem,Alanine_aminotransferase__bio,-0.35209867332305583,8.566160121381299e-133
+metabolomics,Concentration of Small HDL Particles.0.0__met,biochem,Apolipoprotein_A__bio,0.38132063910996905,2.061058805757106e-157
+metabolomics,Total Lipids in Small HDL.0.0__met,biochem,Apolipoprotein_A__bio,0.3919231602853926,5.824007474593711e-167
+metabolomics,Triglycerides in Small HDL.0.0__met,biochem,HDL_cholesterol__bio,-0.44626557280603,5.589159024382051e-222
+metabolomics,Triglycerides in Small HDL.0.0__met,biochem,Alanine_aminotransferase__bio,0.3401385530573881,1.7160723756443717e-123

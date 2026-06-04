@@ -1,0 +1,9 @@
+feature,modality,in_intermediate_top20,in_late_top20,rank_intermediate,rank_late,abs_loading_max,rf_importance,agreement_score
+HDL_cholesterol__bio,biochem,True,True,3,3,0.715482770221263,0.1151456934036776,3.0
+Albumin__bio,biochem,True,True,2,4,0.769120551849721,0.1078496663985421,3.0
+Direct_bilirubin__bio,biochem,True,True,6,2,0.383433439761816,0.1496510756403513,4.0
+Apolipoprotein_A__bio,biochem,True,True,4,5,0.644824279028705,0.1075651283293007,4.5
+Alanine_aminotransferase__bio,biochem,True,True,1,8,0.905788427567164,0.0819395796144357,4.5
+Lipoprotein_A__bio,biochem,True,True,8,1,0.17406480099032,0.2572506346933795,4.5
+Total_protein__bio,biochem,True,True,5,6,0.511073282851252,0.0968617947876867,5.5
+Creatinine__bio,biochem,True,True,7,7,0.211614353096672,0.083736427132626,7.0

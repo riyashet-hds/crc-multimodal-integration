@@ -1,0 +1,7 @@
+modality,N,n_intermediate,n_late,n_common,jaccard
+metabolomics,10,10,10,5,0.3333333333333333
+metabolomics,20,15,20,12,0.5217391304347826
+metabolomics,30,15,30,12,0.36363636363636365
+biochem,10,8,8,8,1.0
+biochem,20,8,8,8,1.0
+biochem,30,8,8,8,1.0

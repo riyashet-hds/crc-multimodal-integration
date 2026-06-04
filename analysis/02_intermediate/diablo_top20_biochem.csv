@@ -1,0 +1,15 @@
+"feature","comp","loading","rank"
+"HDL_cholesterol__bio",1,0.715482770221263,1
+"Apolipoprotein_A__bio",1,0.644824279028705,2
+"Creatinine__bio",1,-0.211614353096672,3
+"Alanine_aminotransferase__bio",1,-0.147807284652771,4
+"Albumin__bio",1,0.0743271674873028,5
+"Direct_bilirubin__bio",1,-0.0115714749269175,6
+"Albumin__bio",2,-0.769120551849721,1
+"Total_protein__bio",2,-0.511073282851252,2
+"Direct_bilirubin__bio",2,0.383433439761816,3
+"Creatinine__bio",2,0.0153776965260501,4
+"Alanine_aminotransferase__bio",3,0.905788427567164,1
+"Apolipoprotein_A__bio",3,0.355991302720587,2
+"Lipoprotein_A__bio",3,-0.17406480099032,3
+"Direct_bilirubin__bio",3,-0.150063193118448,4

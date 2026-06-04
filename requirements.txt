@@ -1,0 +1,23 @@
+# Python dependencies for the CRC multimodal-integration pipeline.
+# Install with:  pip install -r requirements.txt
+# Tested on Python >= 3.10. The intermediate-fusion stage additionally
+# requires R >= 4.3 with the `mixOmics` Bioconductor package.
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+matplotlib-venn>=0.11
+shap>=0.44
+Boruta>=0.3
+networkx>=3.1
+
+# I/O backends
+pyarrow>=14.0      # Parquet read/write
+openpyxl>=3.1      # read the .xlsx modality files
+
+# Optional — only for analysis/_build_codebook.py (notebook export):
+# nbformat>=5.9
+# ipython>=8.0

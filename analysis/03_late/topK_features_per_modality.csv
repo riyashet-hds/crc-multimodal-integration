@@ -1,0 +1,27 @@
+modality,rank,feature
+metabolomics,1,Triglycerides in LDL.0.0__met
+metabolomics,2,Cholesterol in IDL.0.0__met
+metabolomics,3,Phospholipids in IDL.0.0__met
+metabolomics,4,Saturated Fatty Acids.0.0__met
+metabolomics,5,Cholesterol in Large HDL.0.0__met
+metabolomics,6,Triglycerides in HDL.0.0__met
+metabolomics,7,Free Cholesterol in Very Small VLDL.0.0__met
+metabolomics,8,Concentration of Small HDL Particles.0.0__met
+metabolomics,9,Total Lipids in Small HDL.0.0__met
+metabolomics,10,Triglycerides in Small HDL.0.0__met
+biochem,1,Lipoprotein_A__bio
+biochem,2,Direct_bilirubin__bio
+biochem,3,HDL_cholesterol__bio
+biochem,4,Albumin__bio
+biochem,5,Apolipoprotein_A__bio
+biochem,6,Total_protein__bio
+biochem,7,Creatinine__bio
+biochem,8,Alanine_aminotransferase__bio
+diet,1,Processed_meat_intake__diet
+diet,2,Oily_fish_intake__diet
+diet,3,Cheese_intake__diet
+diet,4,Non_oily_fish_intake__diet
+diet,5,Lamb/mutton_intake__diet
+diet,6,Spread_type__diet
+diet,7,Pork_intake__diet
+diet,8,Bread_type__diet

@@ -1,0 +1,46 @@
+|--- p_biochem <= 0.50
+|   |--- p_biochem <= 0.30
+|   |   |--- p_biochem <= 0.16
+|   |   |   |--- p_biochem <= 0.07
+|   |   |   |   |--- value: [0.06]
+|   |   |   |--- p_biochem >  0.07
+|   |   |   |   |--- value: [0.09]
+|   |   |--- p_biochem >  0.16
+|   |   |   |--- p_biochem <= 0.25
+|   |   |   |   |--- value: [0.15]
+|   |   |   |--- p_biochem >  0.25
+|   |   |   |   |--- value: [0.20]
+|   |--- p_biochem >  0.30
+|   |   |--- p_biochem <= 0.42
+|   |   |   |--- p_biochem <= 0.36
+|   |   |   |   |--- value: [0.27]
+|   |   |   |--- p_biochem >  0.36
+|   |   |   |   |--- value: [0.34]
+|   |   |--- p_biochem >  0.42
+|   |   |   |--- p_biochem <= 0.46
+|   |   |   |   |--- value: [0.41]
+|   |   |   |--- p_biochem >  0.46
+|   |   |   |   |--- value: [0.47]
+|--- p_biochem >  0.50
+|   |--- p_biochem <= 0.68
+|   |   |--- p_biochem <= 0.57
+|   |   |   |--- p_biochem <= 0.54
+|   |   |   |   |--- value: [0.53]
+|   |   |   |--- p_biochem >  0.54
+|   |   |   |   |--- value: [0.59]
+|   |   |--- p_biochem >  0.57
+|   |   |   |--- p_biochem <= 0.62
+|   |   |   |   |--- value: [0.64]
+|   |   |   |--- p_biochem >  0.62
+|   |   |   |   |--- value: [0.71]
+|   |--- p_biochem >  0.68
+|   |   |--- p_biochem <= 0.81
+|   |   |   |--- p_biochem <= 0.74
+|   |   |   |   |--- value: [0.78]
+|   |   |   |--- p_biochem >  0.74
+|   |   |   |   |--- value: [0.84]
+|   |   |--- p_biochem >  0.81
+|   |   |   |--- p_biochem <= 0.91
+|   |   |   |   |--- value: [0.90]
+|   |   |   |--- p_biochem >  0.91
+|   |   |   |   |--- value: [0.94]

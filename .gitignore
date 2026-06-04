@@ -1,0 +1,39 @@
+# ==========================================================================
+# DATA PRIVACY: UK Biobank is controlled-access. NEVER commit individual-
+# level records. The patterns below exclude all raw inputs and every
+# per-sample derived matrix. Aggregate figures and summary tables are kept.
+# ==========================================================================
+
+# Raw inputs (UK Biobank modality files)
+data/
+
+# Per-sample derived matrices (rows = participants). DO NOT publish.
+# Covers imputed/z-scaled matrices, OOF probabilities, the stacked OOF,
+# the z-scaled CSVs (metabolomics_z, biochem_z, diet_z), and fitted R models.
+# Note: gitignore does not support trailing comments, so each pattern stands alone.
+*.parquet
+*_z.csv
+*.rds
+
+# Auto-generated codebook (regenerable build artifact)
+analysis/Phase_A_codebook.ipynb
+analysis/_build_codebook.py
+
+# Standard Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Standard R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/

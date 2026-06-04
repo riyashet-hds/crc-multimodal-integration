@@ -1,0 +1,12 @@
+{
+  "n_samples": 4596,
+  "tukey_any_flag_pct": {
+    "metab": 12.075718015665798,
+    "biochem": 33.311575282854655
+  },
+  "mahalanobis_flag_pct_alpha_0.001": {
+    "metab": 7.5718015665796345,
+    "biochem": 2.3281114012184507
+  },
+  "policy": "flag-only; no rows dropped (samples retained per analysis plan)"
+}

@@ -1,0 +1,33 @@
+{
+  "seed": 2026,
+  "n_samples": 4596,
+  "label_col": "casecontrol",
+  "positive_class": "Colon Cancer",
+  "n_features": {
+    "metab": 50,
+    "biochem": 8,
+    "diet": 8
+  },
+  "metabolite_log_transformed": [
+    "Concentration of Chylomicrons and Extremely Large VLDL Particles.0.0__met",
+    "Concentration of Very Large VLDL Particles.0.0__met",
+    "Cholesterol in Large HDL.0.0__met",
+    "Triglycerides in Small VLDL.0.0__met",
+    "Triglycerides in Very Large VLDL.0.0__met",
+    "Triglycerides in LDL.0.0__met",
+    "Phospholipids in Very Large VLDL.0.0__met",
+    "Triglycerides in HDL.0.0__met",
+    "Triglycerides in VLDL.0.0__met",
+    "Saturated Fatty Acids.0.0__met",
+    "Total Lipids in Chylomicrons and Extremely Large VLDL.0.0__met",
+    "Phospholipids in Chylomicrons and Extremely Large VLDL.0.0__met"
+  ],
+  "diet_sentinels_recoded": 143,
+  "imputation": {
+    "metab": "KNN (k=10, distance-weighted)",
+    "biochem": "median per class per feature",
+    "diet": "median overall (post UKBB sentinel recoding)"
+  },
+  "scaling": "z-score (StandardScaler) per feature after log transform",
+  "outlier_policy": "flag-only; Tukey 1.5xIQR + Mahalanobis chi^2 p<0.001"
+}
