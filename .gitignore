@@ -1,5 +1,5 @@
 # ==========================================================================
-# DATA PRIVACY — UK Biobank is controlled-access. NEVER commit individual-
+# DATA PRIVACY: UK Biobank is controlled-access. NEVER commit individual-
 # level records. The patterns below exclude all raw inputs and every
 # per-sample derived matrix. Aggregate figures and summary tables are kept.
 # ==========================================================================
@@ -15,17 +15,11 @@ data/
 *_z.csv
 *.rds
 
-# Re-create these locally by running the pipeline against your own data/.
-
-# Auto-generated reader's-guide codebook (regenerable build artifact; still
-# contains course-specific framing). Excluded from the public repo for now —
-# can be cleaned and re-included later if wanted as a portfolio artifact.
+# Auto-generated codebook (regenerable build artifact)
 analysis/Phase_A_codebook.ipynb
 analysis/_build_codebook.py
 
-# --------------------------------------------------------------------------
 # Standard Python
-# --------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -34,16 +28,12 @@ venv/
 env/
 *.egg-info/
 
-# --------------------------------------------------------------------------
 # Standard R
-# --------------------------------------------------------------------------
 .Rhistory
 .RData
 .Rproj.user/
 
-# --------------------------------------------------------------------------
 # OS / editor cruft
-# --------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
 .vscode/
