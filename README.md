@@ -18,8 +18,8 @@ from integration is small, and the writeup reports that plainly rather than over
   Metabolomics has 50 NMR features, Blood Biochemistry has 8 clinical-chemistry assays, Diet has 8 items.
 - **Two integration strategies:** intermediate fusion (DIABLO, regularised CCA) for joint structure, and
   late fusion (per-modality Random Forests into a stacked logistic regression) for prediction.
-- **Headline result:** biochemistry alone reaches **AUC 0.824**; late fusion adds only **+0.004 AUC**. The
-  honest reading is that integration's value here is biomarker discovery, not a prediction boost.
+- **Headline result:** biochemistry alone reaches **AUC 0.824**; late fusion adds only **+0.004 AUC**.
+  Integration's value here is biomarker discovery, not a prediction boost.
 - **Explainability:** SHAP, a depth-4 surrogate tree, and a cross-modality correlation network converge on
   the same **HDL / Apolipoprotein-A-I axis**, corroborated by verified literature (PubMed PMIDs).
 

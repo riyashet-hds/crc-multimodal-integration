@@ -111,7 +111,7 @@ See [06_clinical/DIFFICULTIES.md](06_clinical/DIFFICULTIES.md). 13 items, honest
 
 - Proteomics cohort fully disjoint → excluded.
 - Diet UK Biobank sentinel codes (-3/-1) had to be recoded — 143 cells.
-- Stacking adds only +0.003 AUC over biochem alone — *report what fusion actually buys you*.
+- Stacking adds only +0.004 AUC over biochem alone — *report what fusion actually buys you*.
 - DIABLO underperforms on prediction; its value is interpretable joint loadings, not AUC.
 
 ## 8. Reproducing this analysis
